@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+@import url('https://fonts.googleapis.com/css?family=Joti+One');
+
+body {
+  padding-top: 50px;
+  /* font-family: 'Patrick Hand', cursive; */
+  font-family: 'Arvo', serif;
+  position: relative;
+  background:#1b222a url(../img/1.jpg) no-repeat top center;
+  background-size:100%;
+  background-attachment: fixed;
+}
+
+#home h1 {
+	font-family: 'Righteous', cursive;
+	/* font-family: 'Berkshire Swash', cursive; */
+}
+
+.jumbotron{
+	background:#29374659 url(../img/showcase-img1.jpg) no-repeat top center;
+	background-size:100%;
+	opacity:20;
+	/*background: black;*/
+
+	width:100%;
+	height:697px;
+	overflow: none;
+	
+	color:white;
+	margin-bottom: 0px;
+}
+
+a.navbar-brand {
+	margin-left: 25px;
+}
+
+.jumbotron h1{
+	padding-top:50px; 
+	text-align:center;
+	font-size: 75px;
+	text-transform: uppercase;
+	
+}
+.jumbotron p{
+	text-align:center;
+	padding-top:50px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.btn-register{
+	margin-top: 90px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 25px;
+	box-shadow: 5px 10px 48px #333030ce;
+}
+
+.my-nav{
+	background:#1b222a url(../img/showcase-img1.jpg) no-repeat top center;
+	font-size: 20px;
+	color:white !important;
+	display:block;
+}
+#navcolor{
+	color:white !important;
+}
+#navcolor:active{
+	color:white !important;
+}
+#navcolor:hover{
+	color:	 #ffaa00 !important;
+}
+.active{
+	opacity:1;
+	display:block;
+	
+}
+
+.em-text{
+	color:#e62e00 !important;
+	font-size: 22px;
+	padding-left:0px !important;
+	text-transform: uppercase;
+}
+
+#sched {
+	font-size: 25px;
+}
+
+#headS {
+	text-align:center;
+}
+
+#about{
+	 padding-top:50px;
+	 margin-top: 0px;	 
+	 
+	 color: black;
+	 /*background:#60ced6a9; */
+	 background: url(../img/deadpool.gif)  no-repeat center;
+	 background-size:100%;
+	 /* background-blend-mode: overlay; */
+	 width:100%;
+	height:697px;
+	overflow: none;
+}
+
+#heading {
+	/* font-family: 'Berkshire Swash', cursive; */
+	/* font-family: 'Patrick Hand', cursive; */
+	font-family: 'Joti One', cursive;
+}
+
+#sec2 {
+	margin-top: 100px;
+}
+
+.abt-well{
+	background: #ff8533 url(../img/showcase-img1.jpg)  top center;
+	color:white;
+	opacity: 0.85;
+}
+
+.abt-well:hover{
+	opacity:1;
+}
+
+#abt-des{
+	text-align: justify;
+}
+.abt-btn{
+	left:50%;
+}
+#heading{
+	padding-top:10px;
+	padding-bottom: 45px;
+	color:#000000 !important;
+	font-size: 40px;
+	font-weight: 1000;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#contact{
+	 padding-top:50px;
+	 margin-top: 0px;	 
+	 
+	 color: black;
+	 /* background:#e6ffe657; */
+	 /* opacity:0.9; */
+	 width:100%;
+	height:697px;
+	overflow: none;
+}
+
+#contact .row {
+	margin-right: 0px;
+}
+
+#contact div.col-md-4 {
+	margin-left: 60px;
+    width: 500px;
+}
+
+#venue{
+	padding-top:50px;
+	margin-top: 0px;	 
+	
+	color: black;
+	/* background:#e6ffe657; */
+	/* opacity:0.9; */
+	width:100%;
+   height:697px;
+   overflow: none;
+}
+
+#venue .row {
+   margin-right: 0px;
+}
+
+#venue div.col-md-4 {
+   margin-left: 60px;
+   width: 500px;
+}
+
+#uber {
+	margin-left: 172px;
+
+}
+
+.nav-down {
+	transition: top 0.3s ease-in-out;
+}
+
+.nav-up {
+	top: -80px;
+    transition: top 0.3s ease-in;
+}
+
+#butt {
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+#butt a:hover {
+	color: #fddd28;
+	font: oblique;
+}
+
+
+#con-heading{
+	padding-top:10px;
+	padding-bottom: 45px;
+	color:#000000 !important;
+	font-size: 40px;
+	font-weight: 1000;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.con-well{
+	background: white;
+	color:black;
+	opacity: 0.8;
+}
+
+#foot{
+	background: #333;
+	color:white;
+	padding:30px 0 20px 0;
+}
+
+img #sith {
+	width: 600px;
+    /* height: 526px; */
+    margin-left: 100px;
+    margin-top: 4px;
+}
+
+#foot li{
+	float:left;
+	padding:0 10px 0 10px;
+	list-style: none;
+}
+
+#foot a{
+	color:white;
+}
+
+#schedule {
+	padding-top:50px;
+	 margin-top: 0px;	 
+	 margin-bottom: -10px;
+	 color: rgb(255, 255, 255);
+	 /*background:#60ced6a9; */
+	 background: url(../img/dope.jpg)  no-repeat center;
+	 background-size:100%;
+	 /* background-blend-mode: overlay; */
+	 width:100%;
+	height:700px;
+	overflow: none;
+}
+
+#foot p{
+	float:right;
+	padding:0 10px 0 10px;
+}
+
+
+.navbar {
+	size: 100%;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 720px) and (min-width: 300px) {
+	#butt {
+		margin-top: 10px;
+		margin-left: 140px;
+	}
+
+    #contact .row {
+		width: 450px;
+		height: 450px;
+		margin-top: 15px;
+		margin-left: 60px;
+	}	
+    
+	#home.jumbotron {
+		margin-bottom: 5px;
+		padding-bottom: 5px;
+	}	
+
+    #about h1 {
+		margin-top: 13px;
+	}
+
+	.abt-well {
+		margin-top: 3px;
+	}
+	
+}
